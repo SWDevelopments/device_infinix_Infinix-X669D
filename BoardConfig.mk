@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X669D
+DEVICE_PATH := device/infinix/X669D
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -45,7 +45,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X669D
+TARGET_BOOTLOADER_BOARD_NAME := X669D
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -63,8 +63,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := Infinix-X669D_defconfig
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X669D
+TARGET_KERNEL_CONFIG := X669D_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/X669D
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
